@@ -35,12 +35,6 @@ public class MainActivity extends AppCompatActivity {
         if(getIntent().getParcelableExtra(Constants.ITEM)!=null){
             itemProduct = getIntent().getParcelableExtra(Constants.ITEM);
 
-//            title.setText(itemProduct.getTitle());
-//            code.setText(Integer.toString(itemProduct.getCode()));
-//            store.setText(itemProduct.getStore());
-//            location.setText(itemProduct.getLocation());
-//            phone.setText(itemProduct.getPhone());
-//            image.setImageResource(R.drawable.mac);
         }else{
             itemProduct = new ItemProduct();
 
